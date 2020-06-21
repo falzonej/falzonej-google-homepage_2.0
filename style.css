@@ -30,7 +30,7 @@
     margin-left: 38%;
 }
 #bottom_content{
-    
+
 }
 #left_bottom{
     font-size: small;
@@ -39,6 +39,7 @@
     position: fixed;
     bottom: 1%;
     left: 1%;
+    margin: 1%;
 }
 #right_bottom{
     font-size: small;
