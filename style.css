@@ -1,5 +1,6 @@
 #body{
     font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #top_bar{
     position: fixed;
@@ -18,29 +19,34 @@
     right: 1%;
 }
 #center-content{
-    border: black;
-    border-style: solid;
     display: block;
-    position: fixed;
     margin: 0 auto;
+    margin-top: 10%;
+    width: 50%;
 }
 #buttons{
-    position: fixed;
-    top: 55%;
-    left: 40%;
+    margin: 0 auto;
+    margin-top: 3%;
+    margin-left: 38%;
+}
+#bottom_content{
+    
 }
 #left_bottom{
+    font-size: small;
+    border-style: solid;
+    border: 5px;
     position: fixed;
     bottom: 1%;
     left: 1%;
 }
 #right_bottom{
+    font-size: small;
     position: fixed;
     bottom: 1%;
     right: 1%;
     margin: 1%;
 }
-
 #about{
     display: inline;
     padding: 10px;
@@ -67,7 +73,9 @@
     padding: 7px
 }
 #google_logo{
-    padding: 20px;
+    margin: 0 auto;
+    margin-left: 25%;
+    border: black;
 }
 
 #searchbar_assy{
@@ -78,6 +86,7 @@
     padding: 10px;
     max-width: 350px;
     margin: 0 auto;
+    margin-top: 5%;
 }
 #magnifyingglass{
     display: inline;
@@ -85,34 +94,53 @@
 #searchbar{
     display: inline-block;
     font-size: large;
-    position: fixed;
-    left: 40%;
-    width: 30%;
-    margin-left: 30px;
+    margin: 0 auto;
+
 }
 #textbox{
     border: 0;
 }
-#buttons{
-    margin-top: 80px;
-
+#googlesearch{
+    font-family: Arial;
+    color: #222;
+    border: #c6c6c6;
+    background-color: #f8f8f8;
+    border: 0;
+    height: 8%;
+    width: 20%;
 }
+#imfeelinglucky{
+    font-family: Arial;
+    color: #222;
+    border: #c6c6c6;
+    background-color: #f8f8f8;
+    border: 0;
+    height: 8%;
+    width: 20%;
+}
+
 #advertising{
+    padding: 8px;
     display: inline;
 }
 #business{
+    padding: 8px;
     display: inline;
 }
 #howsearchworks{
+    padding: 8px;
     display: inline;
 }
 #privacy{
+    padding: 8px;
     display: inline;
 }
 #terms{
+    padding: 8px;
     display: inline;
 }
 #settings{
+    padding: 8px;
     display: inline;
 }
 
