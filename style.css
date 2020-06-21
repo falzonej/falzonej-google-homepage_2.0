@@ -29,23 +29,24 @@
     margin-top: 3%;
     margin-left: 38%;
 }
-#bottom_content{
-
+#footer{
+    color: rgba(0,0,0,.54);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #f2f2f2;
+    
 }
 #left_bottom{
+    display: inline-block;
+    float: left;
     font-size: small;
-    border-style: solid;
-    border: 5px;
-    position: fixed;
-    bottom: 1%;
-    left: 1%;
     margin: 1%;
 }
 #right_bottom{
+    display: inline-block;
+    float: right;
     font-size: small;
-    position: fixed;
-    bottom: 1%;
-    right: 1%;
     margin: 1%;
 }
 #about{
@@ -76,7 +77,6 @@
 #google_logo{
     margin: 0 auto;
     margin-left: 25%;
-    border: black;
 }
 
 #searchbar_assy{
@@ -144,4 +144,6 @@
     padding: 8px;
     display: inline;
 }
+
+
 
